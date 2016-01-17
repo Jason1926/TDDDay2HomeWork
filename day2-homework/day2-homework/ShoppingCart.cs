@@ -10,22 +10,17 @@ namespace day2_homework
         public static decimal CheckOut(List<Product> products)
         {
             decimal Price = 0;
-            switch (products.Count())
-            {
-                case 1:
-                    Price = products.Sum(p => p.Price);
-                    break;
-                case 2:
-                    Price = products.Sum(p => p.Price) * (decimal)(1 - 0.05);
-                    break;
-                case 3:
-                    Price = products.Sum(p => p.Price) * (decimal)(1 - 0.10);
-                    break;
-                case 4:
-                    Price = products.Sum(p => p.Price) * (decimal)(1 - 0.20);
-                    break;
-            }
-
+            if (products.Count == 1)
+            { Price = products.Sum(p => p.Price); }
+            else if (products.Count == 2)
+            { Price = products.Sum(p => p.Price) * (decimal)(1 - 0.05); }
+            else if (products.Count == 3)
+            { Price = products.Sum(p => p.Price) * (decimal)(1 - 0.10); }
+            else if (products.Count == 4)
+            { Price = products.Sum(p => p.Price) * (decimal)(1 - 0.20); }
+            else if (products.Count == 5)
+            { Price = products.Sum(p => p.Price) * (decimal)(1 - 0.25); }
+         
             return Price;
         }
     }
