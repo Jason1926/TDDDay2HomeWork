@@ -1,0 +1,14 @@
+C:\Users\Jason\Desktop\昕力公司\教育訓練\TDD\201601 ThinkPower\day2-homework\day2-homeworkTests\obj\Debug\day2-homeworkTests.csprojResolveAssemblyReference.cache
+C:\Users\Jason\Desktop\昕力公司\教育訓練\TDD\201601 ThinkPower\day2-homework\day2-homeworkTests\bin\Debug\day2-homeworkTests.dll
+C:\Users\Jason\Desktop\昕力公司\教育訓練\TDD\201601 ThinkPower\day2-homework\day2-homeworkTests\bin\Debug\day2-homeworkTests.pdb
+C:\Users\Jason\Desktop\昕力公司\教育訓練\TDD\201601 ThinkPower\day2-homework\day2-homeworkTests\bin\Debug\day2-homework.dll
+C:\Users\Jason\Desktop\昕力公司\教育訓練\TDD\201601 ThinkPower\day2-homework\day2-homeworkTests\bin\Debug\day2-homework.pdb
+C:\Users\Jason\Desktop\昕力公司\教育訓練\TDD\201601 ThinkPower\day2-homework\day2-homeworkTests\obj\Debug\day2-homeworkTests.dll
+C:\Users\Jason\Desktop\昕力公司\教育訓練\TDD\201601 ThinkPower\day2-homework\day2-homeworkTests\obj\Debug\day2-homeworkTests.pdb
+C:\Users\Jason\Documents\GitHub\TDDDay2HomeWork\day2-homework\day2-homeworkTests\bin\Debug\day2-homeworkTests.dll
+C:\Users\Jason\Documents\GitHub\TDDDay2HomeWork\day2-homework\day2-homeworkTests\bin\Debug\day2-homeworkTests.pdb
+C:\Users\Jason\Documents\GitHub\TDDDay2HomeWork\day2-homework\day2-homeworkTests\bin\Debug\day2-homework.dll
+C:\Users\Jason\Documents\GitHub\TDDDay2HomeWork\day2-homework\day2-homeworkTests\bin\Debug\day2-homework.pdb
+C:\Users\Jason\Documents\GitHub\TDDDay2HomeWork\day2-homework\day2-homeworkTests\obj\Debug\day2-homeworkTests.csprojResolveAssemblyReference.cache
+C:\Users\Jason\Documents\GitHub\TDDDay2HomeWork\day2-homework\day2-homeworkTests\obj\Debug\day2-homeworkTests.dll
+C:\Users\Jason\Documents\GitHub\TDDDay2HomeWork\day2-homework\day2-homeworkTests\obj\Debug\day2-homeworkTests.pdb
