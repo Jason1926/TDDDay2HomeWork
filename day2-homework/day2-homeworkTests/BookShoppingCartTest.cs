@@ -94,5 +94,24 @@ namespace day2_homeworkTests
 
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void Test_BookShoppingCart_is_1Episode_1_AND_2Episode_1_And_3Episode_2_Buy_by_TotalPrice_Should_Be_370()
+        {
+            var target = new ShoppingCart();
+
+            var products = new List<Product>() { 
+                                                 new Product() { Episode = "1" , Price = 100 } ,
+                                                 new Product() { Episode = "2" , Price = 100 } ,
+                                                 new Product() { Episode = "3" , Price = 100 } ,
+                                                 new Product() { Episode = "3" , Price = 100 } 
+                                               };
+
+            var actual = ShoppingCart.CheckOut(products);
+
+            int expected = 370;
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
