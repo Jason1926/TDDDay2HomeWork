@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace day2_homework
 {
@@ -20,30 +18,31 @@ namespace day2_homework
             return Price;
         }
 
-
-
         private static List<List<Product>> ProductByGroup(List<Product> Products)
         {
             List<List<Product>> StubGroupProducts = new List<List<Product>>();
 
             foreach (var Product in Products)
             {
-                if (StubGroupProducts.Count == 0) { StubGroupProducts.Add(new List<Product>() { Product }); continue; }
-
+                bool IsExist = false;
                 for (int i = 0; i < StubGroupProducts.Count; i++)
                 {
                     var StubProducts = StubGroupProducts[i];
 
                     var StubProduct = StubProducts.FirstOrDefault(p => p.Episode == Product.Episode);
+
                     if (StubProduct == null)
                     {
                         StubProducts.Add(Product);
+                        IsExist = true;
                         break;
                     }
-                    else {
-                        StubGroupProducts.Add(new List<Product>() { Product });
-                        break;
-                    }
+                    else { IsExist = false; }
+                }
+
+                if (IsExist == false)
+                {
+                    StubGroupProducts.Add(new List<Product>() { Product });
                 }
             }
 
