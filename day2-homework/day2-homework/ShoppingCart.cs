@@ -9,7 +9,18 @@ namespace day2_homework
     {
         public static decimal CheckOut(List<Product> products)
         {
-            return products.Sum(p => p.Price);
+            decimal Price = 0;
+            switch (products.Count())
+            {
+                case 1:
+                    Price = products.Sum(p => p.Price);
+                    break;
+                case 2:
+                    Price = products.Sum(p => p.Price) * (decimal)(1 - 0.05);
+                    break;
+            }
+
+            return Price;
         }
     }
 }
