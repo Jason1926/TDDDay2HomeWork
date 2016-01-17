@@ -18,6 +18,9 @@ namespace day2_homework
                 case 2:
                     Price = products.Sum(p => p.Price) * (decimal)(1 - 0.05);
                     break;
+                case 3:
+                    Price = products.Sum(p => p.Price) * (decimal)(1 - 0.10);
+                    break;
             }
 
             return Price;
