@@ -7,5 +7,7 @@ namespace day2_homework
 {
     public class Product
     {
+        public string Episode { get; set; }
+        public decimal Price { get; set; }
     }
 }

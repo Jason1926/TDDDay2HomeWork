@@ -7,9 +7,9 @@ namespace day2_homework
 {
     public class ShoppingCart
     {
-        public static int CheckOut(List<Product> products)
+        public static decimal CheckOut(List<Product> products)
         {
-            throw new NotImplementedException();
+            return products.Sum(p => p.Price);
         }
     }
 }

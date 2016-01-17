@@ -13,11 +13,11 @@ namespace day2_homeworkTests
         {
             var target = new ShoppingCart();
 
-            var products = new  List<Product>(){new Product()};
+            var products = new List<Product>() { new Product() { Episode = "1", Price = 100 } };
 
-            int actual = ShoppingCart.CheckOut(products);
+            var actual = ShoppingCart.CheckOut(products);
 
-            int expected =100;
+            int expected = 100;
 
             Assert.AreEqual(expected, actual);
         }
